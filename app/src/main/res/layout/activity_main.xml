@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textField"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.SignStar.MainActivity">
+
+    <EditText
+        android:id="@+id/editTextDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="DAY:"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextMonth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="MONTH:"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="YEAR:"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextLat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="LAT:"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextLon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="LON:"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextTzone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="TZONE:"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextMin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="MIN"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="HOUR" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ready!" />
+
+    <TextView
+        android:id="@+id/zodiacNameText"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:text="NAME:" />
+
+    <TextView
+        android:id="@+id/signLordText"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:text="SIGN LORD:" />
+
+    <TextView
+        android:id="@+id/signText"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="SIGN:" />
+</LinearLayout>
